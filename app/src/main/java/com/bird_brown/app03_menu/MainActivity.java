@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.item1 : moji = "メニュー１が選択されました。"; break;
             case R.id.item2 : moji = "メニュー２が選択されました。"; break;
             case R.id.item3 : moji = "メニュー３が選択されました。"; break;
+            case R.id.item4 : moji = "サブメニュー１が選択されました。"; break;
+            case R.id.item5 : moji = "サブメニュー２が選択されました。"; break;
         }
         Toast t = Toast.makeText(this, moji, Toast.LENGTH_SHORT);
         t.show();
